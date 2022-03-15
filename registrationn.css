@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#registration-2-all {
+    overflow: hidden;
+}
+#registration-2 {
+    height: 100vh;
+    background-color: white;
+}
+.register-2-header h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.flex-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 10px;
+
+}
+form input {
+    
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 15vw;
+    padding: 25px 0px 25px 0px;
+}
+.btn {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.btn button {
+    border: 5px solid green;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    width: 78vw;
+    padding: 15px 0px 15px 0px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    /*position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+.footer p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.footer h4 a {
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    text-transform: capitalize;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}

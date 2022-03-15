@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow:ital,wght@1,600&family=Comforter&family=Commissioner:wght@400;500;600;700&family=Fraunces:wght@900&family=IBM+Plex+Sans+Thai+Looped&family=Inria+Sans:wght@700&family=Josefin+Sans:ital,wght@0,300;1,300&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,700&family=Open+Sans:ital@0;1&family=Poppins:ital,wght@0,600;0,700;1,600&family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <section id="register-all">
+        <section id="registration">
+            <div class="register-header">
+                <h4>Enter your phone number to continue</h4>
+            </div>
+            <div class="phone-number-box"> 
+                <form action="/action_page.php">
+                    <input type="tel" id="phone" name="phone"  
+                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </form>
+                    <div class="alert alert-info" style="display: none;"></div>
+            </form>
+                <div class="btn">
+                    <button onclick="location.href ='registration2.html';" >next</button>
+                </div>
+            </div>
+            <div class="socials-box">
+                    <div class="hl"></div>  
+                    <div class="continue">
+                        <h4>or continue with</h4> 
+                    </div>
+                    <div class="hl"></div>
+                </div>
+                <div class="icon-box">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <p>By clicking on Next, you agreed on our <span style="color: green;"><span style="padding-left: 30px;"> Terms of use</span> and <span style="color: green;">privacy policy</span></p></span>
+                </div>
+        </section>
+        
+    </section>
+
+    <script src="registration.js"></script>
+</body>
+</html>
